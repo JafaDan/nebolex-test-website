@@ -1,0 +1,219 @@
+/**АНИМАЦИЯ**/
+
+.animate-bg{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	animation: bg 2s ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 6.5s;
+}
+
+@keyframes bg{ /**bg**/
+
+0% { 
+	opacity: 1;
+} 
+
+100% {
+	opacity: 0;
+}
+}
+
+@keyframes animationup-intro{ /**Страдающих АРТРОЗОМ**/
+
+0% { 
+opacity: 0;
+font-size: 10px;
+color: #000;
+size: 100%;
+top: 53%;
+left: 55%;
+} 
+
+
+50% {
+font-size: 89px;
+color: #fff;
+}
+100% {
+font-size: 50px;
+line-height: 50px;
+color: #fff;
+}
+}
+
+
+@keyframes animationup-percent{ /**% АРТРОЗОМ**/
+0% { 
+opacity: 0;
+font-size: 10px;
+color: #000;
+
+} 
+50% {
+font-size: 400px;
+opacity: 1;
+top: 18%;
+left: 12%;
+color: #fff;
+}
+100% {
+font-size: 300px;
+color: #fff;
+}
+}
+
+@keyframes art-move{  /** % СТРАДАЮЩИХ АРТРОЗОМ**/
+0% { 
+top: 31%;
+left: 20%;
+
+} 
+100% {
+    top: 7%;
+    left: 5%;
+}
+}
+
+
+
+.art{
+	animation: art-move 2s ease-in-out 2s;
+	animation-fill-mode: forwards;
+	position: absolute;
+	top: 31%;
+	left: 20%;	
+}
+
+.procentArt{
+	animation: animationup-percent 4s ease-in-out;
+	animation-fill-mode: forwards;
+	font-size: 400px;
+}
+
+.procentArt_intro{
+	animation: animationup-intro 4s ease-in-out;
+	animation-fill-mode: forwards;
+	font-size: 89px;
+	line-height: 85px;
+	margin-top: 67px;
+	margin-left: 53px;
+}
+
+.art2{
+	animation-delay: 2.5s;
+	position: absolute;
+	top: 40%;
+    left: 4%;
+}
+
+.procent2Art{
+	font-size: 400px;
+	color: #f18a25;
+}
+
+.procent2Art_intro{
+	font-size: 89px;
+	line-height: 85px;
+	margin-top: 67px;
+	margin-left: 53px;
+	color: #fff;
+}
+
+.art3{
+	animation-delay: 5s;
+	position: absolute;
+	font-size: 85px;
+	bottom: 10%;
+    right: 15%;
+    color: #0091d0;
+}
+
+.art_out{
+	animation-delay: 7s;
+}
+
+.logo_anim{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -59px;
+	margin-left: -252px;
+}
+
+.logo_anim-box{
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+
+.logo_left{
+	width: 300px;
+	position: absolute;
+	top: 0;
+    left: 0;
+    margin-top: -150px;
+}
+
+.logo_top{
+	width: 333px;
+    position: absolute;
+    top: 0%;
+    left: 15.5%;
+    margin-top: -150px;
+}
+
+.logo_right{
+	width: 127px;
+    position: absolute;
+    top: -3px;
+    left: 59.5%;
+    margin-top: -150px;
+}
+
+.product_anim{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -440px;
+	margin-left: -221px;
+	animation-delay: 9s;
+}
+
+.pruduct_anim_img{
+	width: 85%;
+}
+
+.delay_logo_anim{
+	animation-delay: 7s;
+}
+
+.delay_logo_anim_out{
+	animation-delay: 12s;
+}
+
+.animation_page{
+	z-index: 1001;
+}
+
+#fullpage{
+	z-index: 0;
+}
+
+@keyframes show{
+0%{
+	opacity: 0;
+}
+
+100%{
+	opacity: 1;
+}
+}
+
+#fullpage{
+	opacity: 0;
+	animation: show 2s ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 13s;
+}
