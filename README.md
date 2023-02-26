@@ -7,7 +7,7 @@ It does not represent my current skills in programming and it does not give me a
 
 ## What is about?
 It is a simple website, that contains several modules, like:
-1. Online shop (some medical products, that does not exists).
+1. Online shop (some medical products, that does not exists) with bucket and some products in it.
 2. Questionnaire module (a little test, that shows which medicine you can use from that shop).
 3. Formulas creation module (big page, that allows you to make some calculations about chemical components, even i dont remember well what its doing :D )
 4. Admin panel with several options, like users and products management.
@@ -30,7 +30,8 @@ apt update && apt install php5.6 php5.6-mysql -y
 ```
 
 Put in /system/core.php creditentials for your database.
-Edit php.ini, if you see some errors.
+Database dump exists in /database/tabletka.sql
+Edit php.ini, if you see some errors or use ready one from /server_configuration/ folder.
 
 ## Support
 I dont give any support for this code, because it does not make any sence :D
